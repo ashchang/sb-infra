@@ -1,0 +1,21 @@
+[
+    {
+      "image": "012345678901.dkr.ecr.ap-northeast-1.amazonaws.com/sb:feature",
+      "name": "feature",
+      "networkMode": "awsvpc",
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 3000
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/sb",
+          "awslogs-region": "ap-northeast-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ]

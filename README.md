@@ -1,5 +1,7 @@
 # PRE-Request
 
+Before start, you have to do several things by hands...
+
 Terraform Part
 ------
 1. you HAVE TO edit these file for aws account number
@@ -13,7 +15,7 @@ provider.tf
 
 ECR Part
 ------
-Create an ECR named: sb
+Create an ECR named: sb 
 
 (optional)
 S3 Part
